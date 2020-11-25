@@ -1,0 +1,83 @@
+/*Global styling*/ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.container-fluid {
+    padding: 4rem 3rem;
+}
+.txt h1 {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: dodgerblue;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 3rem;
+}
+.footer p:hover {
+    color: grey;
+    transition: 500ms;
+}
+.footer a:hover {
+    color: grey;
+    transition: 500ms;
+}
+
+@media screen and (min-width:280px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-brand {
+        width: 10%;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .nav-brand a {
+        color: #fff;
+    }
+    .container-fluid {
+        padding: 0 1rem;
+    }
+    .txt h1 {
+        width: 100%;
+        font-size: 3rem;
+        padding-top: 8rem;
+    }
+    img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .txt h1 {
+        width: 60%;
+        font-size: 5rem;
+        padding-top: 4rem;
+    }
+    .container-fluid {
+        padding: 0 5rem;
+    }
+
+}

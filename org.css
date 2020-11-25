@@ -1,0 +1,119 @@
+/* Global styling*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.container-fluid {
+    padding: 0 3rem;
+}
+.content-txt {
+    text-align: center;
+}
+.content {
+    width: 60%;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-top: 4rem;
+    margin: 0 auto;
+}
+.content-txt h3 {
+    padding: 2rem 0 1rem;
+    font-size: 3rem;
+}
+.content-txt p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding: .5rem 0 2rem 0;
+    font-weight: 700;
+}
+.text {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.contain {
+    padding-top: 1rem;
+}
+.footer {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 1rem;
+}
+.footer p:hover {
+    color: grey;
+    transition: 500ms;
+}
+.footer a:hover {
+    color: grey;
+    transition: 500ms;
+}
+.contain a {
+    font-size: 1.5rem;
+    color: dodgerblue;
+}
+
+@media screen and (min-width:280px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .container-fluid {
+        padding: 0 1rem;
+    }
+    .nav-brand {
+        width: 10%;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .nav-brand a {
+        color: #fff;
+    }
+    .content {
+        width: 100%;
+        font-size: 1.3rem;
+        padding-top: 8rem;
+    }
+    .content-txt h3 {
+        font-size: 1.2rem;
+    }
+    .content-txt p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+    }
+    .text {
+
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    
+    
+}
+
+@media screen and (min-width:700px) {
+    .content {
+        width: 60%;
+        font-size: 3rem;
+        padding-top: 4rem;
+    }
+    .content-txt h3 {
+        font-size: 2rem;
+    }
+    .content-txt p {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+

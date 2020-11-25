@@ -1,0 +1,87 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: dodgerblue;
+    padding: 1rem;
+}
+.nav-list {
+    width: 15rem;
+    height: 50vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: -26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1500;
+    transition: all 650ms ease-in-out;
+}
+.nav-list.active {
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+.nav-item {
+    margin: 1rem 0;
+}
+
+.nav-link {
+    margin-left: 2rem;
+    color: dodgerblue;
+}
+.menu-icon i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (min-width:700px) {
+    .nav-brand {
+        display: none;
+    }
+    .logo {
+        display: initial;
+    }
+    .open i,.close i {
+        display: none;
+    }
+    .nav-list {
+        width: initial;
+        height: initial;
+        position: initial;
+        top: initial;
+        flex-direction: row;
+        right: initial;
+        background: none;
+    }
+    nav {
+        background-color: initial;
+        position: initial;
+        top: initial;
+        width: 100%;
+
+    }
+    .nav-link {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        color: #0000ff;
+    }
+    .nav-link:hover {
+        border-bottom: 2px solid #0000ff;
+        color: grey;
+
+    }
+
+    
+    
+}
